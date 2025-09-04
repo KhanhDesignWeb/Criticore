@@ -8,9 +8,13 @@ Dự án được triển khai theo mô hình Microservices, bao gồm:
   - `CourseService/`
     - `# Quản lý thông tin khóa học`
     - `Course.API/`
+      - `# Định nghĩa các endpoint API để xử lý yêu cầu liên quan đến khóa học`
     - `Course.Application/`
+      - `# Chứa logic nghiệp vụ và xử lý các trường hợp sử dụng của khóa học`
     - `Course.Domain/`
+      - `# Định nghĩa các thực thể (entities) và quy tắc kinh doanh của khóa học`
     - `Course.Infrastructure/`
+      - `# Triển khai các thành phần hạ tầng như kết nối cơ sở dữ liệu, caching cho khóa học`
   - `IdentityService/`
     - `# Quản lý xác thực & phân quyền (login, register, JWT, roles)`
     - `Identity.API/`
