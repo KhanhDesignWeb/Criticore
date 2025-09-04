@@ -2,6 +2,7 @@
 Github để develop criticore
 ## ⚙️ Kiến trúc
 Dự án được triển khai theo mô hình **Microservices**, bao gồm:
+
 src/
 ├── Services/
 │ ├── Identity/ # Quản lý xác thực & phân quyền (login, register, JWT, roles)
